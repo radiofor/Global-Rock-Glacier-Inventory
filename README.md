@@ -8,7 +8,7 @@ Download and usage guide for the dataset hosted at the National Tibetan Plateau 
 - **Inventory:** 301,524 mapped polygons across 19 regions, approximately 38,849 km².
 - **Format:** GeoPackage (`.gpkg`); WGS 84 geographic coordinates (**EPSG:4326**).
 - **Package size:** 490.98 MB.
-- **Guide updated:** 30 September 2026.
+- **Guide updated:** 2 October 2026.
 
 ## 1 Direct download
 
@@ -23,11 +23,11 @@ Download and usage guide for the dataset hosted at the National Tibetan Plateau 
 
 1. Open the dataset page and click **Download**.
 2. Copy the host, port, username, and password from the **FTP account** dialog.
-3. Connect with an FTP client using the displayed settings.
+3. In your FTP client, select **FTP**, use the displayed account settings, set the transfer mode to **Passive (PASV)**, and **disable TLS encryption**. Connect to the server.
 4. Select all files or the files you need: `global_rgs.gpkg` for the global inventory, `global_rgs_XX.gpkg` for regional subsets, and `global_rg_regions.gpkg` for regional boundaries. See the [regional file index](#4-regional-file-index) for region IDs and names.
 5. Open the downloaded GeoPackage directly in your GIS software.
 
-If FTP fails, use direct download.
+Direct download provides the complete data package; FTP allows you to select individual files.
 
 ## 3 Package contents
 
